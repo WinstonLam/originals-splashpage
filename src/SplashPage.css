@@ -1,0 +1,125 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/Healthy\ Box.png);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo img{
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    z-index: 2;
+    animation: fadeIn 1s ease-in-out forwards; /* 0.5s delay */
+    cursor: pointer;
+
+}
+.logo .hammock{
+    position: absolute;
+    z-index: 1;
+}
+
+.description{
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem; /* Set a base font-size */
+    animation: fadeIn 1s ease-in-out 1s forwards; /* 1.5s delay */
+}
+
+
+.explore-button {
+    opacity: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #108529; /* Adjust color accordingly */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0, 0);
+    box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out 1.5s forwards; /* 2s delay */
+
+
+    /* Ensure that the button is accessible */
+    &:hover{
+        background-color: #034113;  /* Darker Green */
+    }
+    &:focus{
+        transform: translate(-4px, 4px);
+        box-shadow: none;
+        background-color: #034113;  /* Darker Green */
+    }
+}
+
+.highlight {
+    color: #108529; 
+}
+
+
+@keyframes fadeIn {
+    from {
+        transform: translate(0, -20px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+
+
+/* Responsive Text Scaling */
+@media only screen and (max-width: 1200px) {
+    .description {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .description {
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .description {
+        font-size: 0.75rem;
+    }
+}
