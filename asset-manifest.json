@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/originals-splashpage/static/css/main.9b18dea2.css",
-    "main.js": "/originals-splashpage/static/js/main.6665f036.js",
+    "main.css": "/originals-splashpage/static/css/main.d79ec399.css",
+    "main.js": "/originals-splashpage/static/js/main.10cd7c3c.js",
     "static/media/Healthy Box.png": "/originals-splashpage/static/media/Healthy Box.3f7be4edd010a13ee4f2.png",
     "static/media/Originals logo white.png": "/originals-splashpage/static/media/Originals logo white.b53de54cdbffcdbb3ef0.png",
-    "static/media/hammock.png": "/originals-splashpage/static/media/hammock.e5f63f4986048103f2f9.png",
     "index.html": "/originals-splashpage/index.html",
-    "main.9b18dea2.css.map": "/originals-splashpage/static/css/main.9b18dea2.css.map",
-    "main.6665f036.js.map": "/originals-splashpage/static/js/main.6665f036.js.map"
+    "main.d79ec399.css.map": "/originals-splashpage/static/css/main.d79ec399.css.map",
+    "main.10cd7c3c.js.map": "/originals-splashpage/static/js/main.10cd7c3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b18dea2.css",
-    "static/js/main.6665f036.js"
+    "static/css/main.d79ec399.css",
+    "static/js/main.10cd7c3c.js"
   ]
 }
