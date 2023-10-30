@@ -64,6 +64,7 @@
     color: #fff;
     background-color: #108529; /* Adjust color accordingly */
     border: none;
+    cursor: pointer;
     border-radius: 5px;
     font-size: 1rem;
     text-decoration: none;

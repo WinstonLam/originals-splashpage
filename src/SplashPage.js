@@ -56,8 +56,10 @@ const SplashPage = () => {
                 </span>
                 <br />
               </b>
-              But don't worry, we've left our menu open just for you to explore
-              and plan your next delicious meal with us! 😋
+              We are sorry for this inconvinience and thank you for your
+              understanding! 🙏 <br />
+              But don't worry, we've got exciting deals ready once we are back
+              😋
             </p>
             <p>
               Can’t wait to see you soon and share our original, wok creations
@@ -69,14 +71,12 @@ const SplashPage = () => {
               </b>
               🗓️
             </p>
-            <a
-              href="http://www.originalsfood.nl"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
               className="explore-button"
+              onClick={() => window.open(require("./deals.pdf"), "_blank")}
             >
-              Explore our Menu
-            </a>
+              Check out Deals
+            </button>
           </div>
         </div>
       )}
