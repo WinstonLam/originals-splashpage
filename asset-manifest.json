@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.36bfac52.css",
+    "main.css": "/static/css/main.d7f6a18e.css",
     "main.js": "/static/js/main.f04b7801.js",
     "static/media/deals.pdf": "/static/media/deals.484c774c376204de2546.pdf",
     "static/media/Originals logo white.png": "/static/media/Originals logo white.b53de54cdbffcdbb3ef0.png",
     "index.html": "/index.html",
-    "main.36bfac52.css.map": "/static/css/main.36bfac52.css.map",
+    "main.d7f6a18e.css.map": "/static/css/main.d7f6a18e.css.map",
     "main.f04b7801.js.map": "/static/js/main.f04b7801.js.map"
   },
   "entrypoints": [
-    "static/css/main.36bfac52.css",
+    "static/css/main.d7f6a18e.css",
     "static/js/main.f04b7801.js"
   ]
 }
