@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./SplashPage.css";
 import logo from "./images/Originals logo white.png";
-import Healthybox from "./images/Healthy Box.png";
 
 const SplashPage = () => {
   const vacationStartDate = new Date("November 05, 2023");
@@ -14,17 +13,20 @@ const SplashPage = () => {
   // Convert the difference to days
   const daysLeft = Math.ceil(difference / (1000 * 60 * 60 * 24));
 
+  const hostedHealthybox =
+    "https://uploads-ssl.webflow.com/5fdd088e571ea0142dedc7eb/5fe0819e048e9350985260d3_Healthy%20Box%5B5513%5D.png";
+
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
     <div
       className="background"
-      style={{ backgroundImage: `url(${Healthybox})` }}
+      style={{ backgroundImage: `url(${hostedHealthybox})` }}
     >
       {/* Hidden image for loading event */}
       <img
-        src={Healthybox}
-        alt="background"
+        src={hostedHealthybox}
+        alt="background preload"
         style={{ display: "none" }}
         onLoad={() => setImageLoaded(true)}
       />

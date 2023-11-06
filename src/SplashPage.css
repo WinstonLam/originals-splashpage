@@ -1,7 +1,6 @@
 .background{
     height: 100vh;
     width: 100vw;
-    background-image: url(images/Healthy\ Box.png);
     overflow: hidden;
     display: flex;
     justify-content: center;
