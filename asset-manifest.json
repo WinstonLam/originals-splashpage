@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d7f6a18e.css",
-    "main.js": "/static/js/main.f04b7801.js",
-    "static/media/deals.pdf": "/static/media/deals.484c774c376204de2546.pdf",
-    "static/media/Originals logo white.png": "/static/media/Originals logo white.b53de54cdbffcdbb3ef0.png",
+    "main.js": "/static/js/main.fd52990a.js",
+    "static/media/logo-christmas.png": "/static/media/logo-christmas.46383f6441fb5fec4b28.png",
     "index.html": "/index.html",
     "main.d7f6a18e.css.map": "/static/css/main.d7f6a18e.css.map",
-    "main.f04b7801.js.map": "/static/js/main.f04b7801.js.map"
+    "main.fd52990a.js.map": "/static/js/main.fd52990a.js.map"
   },
   "entrypoints": [
     "static/css/main.d7f6a18e.css",
-    "static/js/main.f04b7801.js"
+    "static/js/main.fd52990a.js"
   ]
 }
