@@ -4,8 +4,8 @@ import logo from "./images/logo-christmas.png";
 import Snowfall from "react-snowfall";
 
 const SplashPage = () => {
-  const vacationStartDate = new Date("December 24, 2023");
-  const vacationEndDate = new Date("December 27, 2023");
+  const vacationStartDate = new Date("December 9, 2024");
+  const vacationEndDate = new Date("December 31, 2024");
   const currentDate = new Date();
 
   // Calculate the difference in milliseconds
@@ -57,8 +57,8 @@ const SplashPage = () => {
               <br />
               <span className="highlight">
                 <b>
-                  Monday December 25th <br />
-                  Tuesday December 26th <br />
+                  Monday December 9th <br />
+                  Tuesday December 31th <br />
                 </b>
               </span>
               We are sorry for this inconvinience and thank you for your
