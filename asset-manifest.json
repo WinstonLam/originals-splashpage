@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/originals-splashpage/static/css/main.d7f6a18e.css",
-    "main.js": "/originals-splashpage/static/js/main.957d50aa.js",
+    "main.css": "/originals-splashpage/static/css/main.624022ec.css",
+    "main.js": "/originals-splashpage/static/js/main.d777a7e1.js",
     "static/media/logo-christmas.png": "/originals-splashpage/static/media/logo-christmas.46383f6441fb5fec4b28.png",
     "index.html": "/originals-splashpage/index.html",
-    "main.d7f6a18e.css.map": "/originals-splashpage/static/css/main.d7f6a18e.css.map",
-    "main.957d50aa.js.map": "/originals-splashpage/static/js/main.957d50aa.js.map"
+    "main.624022ec.css.map": "/originals-splashpage/static/css/main.624022ec.css.map",
+    "main.d777a7e1.js.map": "/originals-splashpage/static/js/main.d777a7e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7f6a18e.css",
-    "static/js/main.957d50aa.js"
+    "static/css/main.624022ec.css",
+    "static/js/main.d777a7e1.js"
   ]
 }
