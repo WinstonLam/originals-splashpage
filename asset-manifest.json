@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/originals-splashpage/static/css/main.cab28356.css",
-    "main.js": "/originals-splashpage/static/js/main.d777a7e1.js",
+    "main.css": "/originals-splashpage/static/css/main.b977e501.css",
+    "main.js": "/originals-splashpage/static/js/main.863e228a.js",
     "static/media/logo-christmas.png": "/originals-splashpage/static/media/logo-christmas.46383f6441fb5fec4b28.png",
+    "static/media/maintanence.gif": "/originals-splashpage/static/media/maintanence.9dff0111aefe903afc70.gif",
+    "static/media/logo.png": "/originals-splashpage/static/media/logo.b53de54cdbffcdbb3ef0.png",
     "index.html": "/originals-splashpage/index.html",
-    "main.cab28356.css.map": "/originals-splashpage/static/css/main.cab28356.css.map",
-    "main.d777a7e1.js.map": "/originals-splashpage/static/js/main.d777a7e1.js.map"
+    "main.b977e501.css.map": "/originals-splashpage/static/css/main.b977e501.css.map",
+    "main.863e228a.js.map": "/originals-splashpage/static/js/main.863e228a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cab28356.css",
-    "static/js/main.d777a7e1.js"
+    "static/css/main.b977e501.css",
+    "static/js/main.863e228a.js"
   ]
 }
