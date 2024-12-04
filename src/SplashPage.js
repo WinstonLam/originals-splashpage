@@ -58,6 +58,11 @@ const SplashPage = () => {
               <span className="highlight">
                 <b>
                   Saturday December 7th <br />
+                </b>
+              </span>
+              until <br />
+              <span className="highlight">
+                <b>
                   Tuesday December 31th <br />
                 </b>
               </span>
