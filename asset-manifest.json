@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.b977e501.css",
-    "main.js": "/static/js/main.e71e5507.js",
+    "main.js": "/static/js/main.036ee25f.js",
     "static/media/logo-christmas.png": "/static/media/logo-christmas.46383f6441fb5fec4b28.png",
     "static/media/maintanence.gif": "/static/media/maintanence.9dff0111aefe903afc70.gif",
     "static/media/logo.png": "/static/media/logo.b53de54cdbffcdbb3ef0.png",
     "index.html": "/index.html",
     "main.b977e501.css.map": "/static/css/main.b977e501.css.map",
-    "main.e71e5507.js.map": "/static/js/main.e71e5507.js.map"
+    "main.036ee25f.js.map": "/static/js/main.036ee25f.js.map"
   },
   "entrypoints": [
     "static/css/main.b977e501.css",
-    "static/js/main.e71e5507.js"
+    "static/js/main.036ee25f.js"
   ]
 }
