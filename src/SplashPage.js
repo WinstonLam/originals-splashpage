@@ -4,7 +4,7 @@ import logo from "./images/logo-christmas.png";
 import Snowfall from "react-snowfall";
 
 const SplashPage = () => {
-  const vacationStartDate = new Date("December 9, 2024");
+  const vacationStartDate = new Date("December 7, 2024");
   const vacationEndDate = new Date("December 31, 2024");
   const currentDate = new Date();
 
@@ -57,7 +57,7 @@ const SplashPage = () => {
               <br />
               <span className="highlight">
                 <b>
-                  Monday December 9th <br />
+                  Saturday December 7th <br />
                   Tuesday December 31th <br />
                 </b>
               </span>
