@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SplashPage.css";
-import logo from "./images/logo-christmas.png";
-import Snowfall from "react-snowfall";
+import logo from "./images/logo.png";
+import closed from "./images/closed.png"
 
 const SplashPage = () => {
   const vacationStartDate = new Date("December 7, 2024");
@@ -24,7 +24,6 @@ const SplashPage = () => {
       className="background"
       style={{ backgroundImage: `url(${hostedHealthybox})` }}
     >
-      <Snowfall />
       {/* Hidden image for loading event */}
       <img
         src={hostedHealthybox}
@@ -44,6 +43,9 @@ const SplashPage = () => {
               <img src={logo} alt="Originals logo" />
             </a>
           </div>
+          <div className="closed">
+            <img src={closed} alt="closed logo" />
+          </div>
 
           <div className="description">
             <h2>
@@ -51,25 +53,29 @@ const SplashPage = () => {
               <span className="highlight">Originals 本来 !</span>
             </h2>
             <p>
-              Happy Holidays! 🎄🎁
+              After 5 wonderful years,         <br />Originals
+              will be closing its chapter. We are truly
+              honored and have <br /> greatly enjoyed serving
+              you as our loyal guests!<br />
+
+              Our last day of opening in store will be:
               <br />
-              During this year's holiday season, we are closed on:
+
               <br />
               <span className="highlight">
                 <b>
-                  Saturday December 7th <br />
+                  Friday, 25-04-2025<br />
                 </b>
               </span>
-              until <br />
-              <span className="highlight">
-                <b>
-                  Tuesday December 31th <br />
-                </b>
-              </span>
-              We are sorry for this inconvinience and thank you for your
-              understanding! 🙏 <br />
+              <br />
+
+              We want to thank you for your understanding
+
+              and hope <br /> to be of service to you one
+
+              last time before we go.🙏
             </p>
-            <p>
+            {/* <p>
               Can’t wait to see you soon and share our original, wok creations
               with you{" "}
               <b>
@@ -78,7 +84,7 @@ const SplashPage = () => {
                 </span>
               </b>
               🗓️
-            </p>
+            </p> */}
           </div>
         </div>
       )}

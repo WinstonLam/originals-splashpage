@@ -11,9 +11,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover; /* Cover the entire viewport without repeating */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-position: center; /* Center the image in the viewport */
+  background-size: cover;
+  /* Cover the entire viewport without repeating */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-position: center;
+  /* Center the image in the viewport */
 }
 
 .background::before {
@@ -40,26 +43,38 @@ body {
   z-index: 2;
 }
 
+.closed img {
+
+  margin: -30px 0 0 45px;
+  opacity: 0;
+  width: 60%;
+  height: auto;
+  max-width: 185px;
+  z-index: 2;
+  animation: fadeIn 1s ease-in-out forwards;
+  /* 0.5s delay */
+  cursor: pointer;
+}
+
 .logo img {
   opacity: 0;
   width: 100%;
   height: auto;
   max-width: 185px;
   z-index: 2;
-  animation: fadeIn 1s ease-in-out forwards; /* 0.5s delay */
+  animation: fadeIn 1s ease-in-out forwards;
+  /* 0.5s delay */
   cursor: pointer;
-}
-.logo .hammock {
-  position: absolute;
-  z-index: 1;
 }
 
 .description {
   opacity: 0;
   color: #fff;
   text-align: center;
-  font-size: 1.5rem; /* Set a base font-size */
-  animation: fadeIn 1s ease-in-out 1s forwards; /* 1.5s delay */
+  font-size: 1.5rem;
+  /* Set a base font-size */
+  animation: fadeIn 1s ease-in-out 1s forwards;
+  /* 1.5s delay */
 }
 
 .explore-button {
@@ -67,7 +82,8 @@ body {
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
-  background-color: #108529; /* Adjust color accordingly */
+  background-color: #108529;
+  /* Adjust color accordingly */
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -76,16 +92,20 @@ body {
   transition: all 0.3s ease-in-out;
   transform: translate(0, 0);
   box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.2);
-  animation: fadeIn 1s ease-in-out 1.5s forwards; /* 2s delay */
+  animation: fadeIn 1s ease-in-out 1.5s forwards;
+  /* 2s delay */
 
   /* Ensure that the button is accessible */
   &:hover {
-    background-color: #034113; /* Darker Green */
+    background-color: #034113;
+    /* Darker Green */
   }
+
   &:focus {
     transform: translate(-4px, 4px);
     box-shadow: none;
-    background-color: #034113; /* Darker Green */
+    background-color: #034113;
+    /* Darker Green */
   }
 }
 
@@ -99,6 +119,7 @@ body {
     transform: translate(0, -20px);
     opacity: 0;
   }
+
   to {
     transform: translate(0, 0);
     opacity: 1;
